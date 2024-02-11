@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Page1"
+             Title="Login Page">
+    <ContentPage.Content>
+        <StackLayout x:Name="outerstack">
+            <StackLayout Padding="20" Margin="0,80,0,0">
+                <Label Text="USER NAME" />
+                <Entry Text="" Placeholder="USERNAME" x:Name="usernameentry"/>
+                <Label Text="PASSWORD" />
+                <Entry Text="" Placeholder="PASSWORD" IsPassword="True"/>
+                <Button Text="LOGIN" Clicked="LoginBtn"/>
+                <Label Text="Not a member? Sign Up Now!" HorizontalOptions="Center" TextColor="Brown"/>
+            </StackLayout>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
